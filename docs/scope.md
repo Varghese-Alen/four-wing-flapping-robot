@@ -12,6 +12,8 @@ The numerical subset retains original tables and three complete 20 Hz histories.
 
 Parameter tree construction, the full model building toolchain, the full aerodynamic and structural working history, and physical test data are not part of this edition. No physical test data exist for these reported results. The retained data do not establish full cycle converged airflow, achieved motion, electrical efficiency, equal lift performance, hover, endurance or fatigue life.
 
+The bench model shows the normal measurement arrangement, with the sensor and its adapters fitted. The separate severe proof arrangement in the [design story](design-story.md), where a dedicated bypass replaces the sensor and its adapters, is described but not modelled in this edition.
+
 Exchange header description fields were normalised for this edition. The geometry data sections are unchanged from the retained exports. These are derivative exchange files, not byte identical copies of the previous exports. The original source and transformation record are retained separately by the owner. Required rights notices remain in this repository.
 
 The public checks concern this curated edition only. They do not certify an entire historical archive or any independently changed remote repository.
