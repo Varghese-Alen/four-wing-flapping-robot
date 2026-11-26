@@ -1,0 +1,126 @@
+{
+  "fixed_refinement": [
+    {
+      "step": 0.025,
+      "fixed_multiplier": 1.625,
+      "fixed_mission_W": 1.8017642926779402,
+      "frozen_menu_advantage_W": 0.003588095748913833,
+      "frozen_menu_advantage_percent": 0.19914345974638506
+    },
+    {
+      "step": 0.0125,
+      "fixed_multiplier": 1.625,
+      "fixed_mission_W": 1.8017642926779402,
+      "frozen_menu_advantage_W": 0.003588095748913833,
+      "frozen_menu_advantage_percent": 0.19914345974638506
+    },
+    {
+      "step": 0.00625,
+      "fixed_multiplier": 1.63125,
+      "fixed_mission_W": 1.80176315541322,
+      "frozen_menu_advantage_W": 0.0035869584841936586,
+      "frozen_menu_advantage_percent": 0.19908046589902756
+    }
+  ],
+  "fixed_finest_change_W": 1.1372647201746133e-06,
+  "advantage_change_percentage_points": 6.299384735750091e-05,
+  "saved_history_checks": [
+    {
+      "history": "history-f17-no_spring.npz",
+      "positive_W": 1.6421284770083369,
+      "negative_W": 0.29016763415638613,
+      "signed_W": 1.351960842851951,
+      "identity_error_W": 2.220446049250313e-16,
+      "component_error_W": 2.220446049250313e-16
+    },
+    {
+      "history": "history-f17-best_fixed.npz",
+      "positive_W": 1.3821278281683216,
+      "negative_W": 0.03016698537028268,
+      "signed_W": 1.3519608427980387,
+      "identity_error_W": 2.220446049250313e-16,
+      "component_error_W": 2.220446049250313e-16
+    },
+    {
+      "history": "history-f17-selectable_optimized.npz",
+      "positive_W": 1.3771781276257342,
+      "negative_W": 0.025217284819401636,
+      "signed_W": 1.3519608428063328,
+      "identity_error_W": 2.220446049250313e-16,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f17-selectable_prescribed.npz",
+      "positive_W": 1.378608255938118,
+      "negative_W": 0.026647413127638388,
+      "signed_W": 1.3519608428104797,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f18.5-no_spring.npz",
+      "positive_W": 2.1162918213388786,
+      "negative_W": 0.37395331703957424,
+      "signed_W": 1.7423385042993043,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f18.5-best_fixed.npz",
+      "positive_W": 1.774841664987004,
+      "negative_W": 0.032503160746369025,
+      "signed_W": 1.742338504240635,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f18.5-selectable_optimized.npz",
+      "positive_W": 1.774841664987004,
+      "negative_W": 0.032503160746369025,
+      "signed_W": 1.742338504240635,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f18.5-selectable_prescribed.npz",
+      "positive_W": 1.7861889912869215,
+      "negative_W": 0.04385048703274731,
+      "signed_W": 1.7423385042541741,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f20-no_spring.npz",
+      "positive_W": 2.6739319796594128,
+      "negative_W": 0.472489532515996,
+      "signed_W": 2.2014424471434166,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f20-best_fixed.npz",
+      "positive_W": 2.2483233848784945,
+      "negative_W": 0.04688093779850439,
+      "signed_W": 2.20144244707999,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f20-selectable_optimized.npz",
+      "positive_W": 2.242508798174341,
+      "negative_W": 0.04106635110508401,
+      "signed_W": 2.2014424470692564,
+      "identity_error_W": 4.440892098500626e-16,
+      "component_error_W": 0.0
+    },
+    {
+      "history": "history-f20-selectable_prescribed.npz",
+      "positive_W": 2.2730400809871627,
+      "negative_W": 0.07159763389253604,
+      "signed_W": 2.2014424470946268,
+      "identity_error_W": 0.0,
+      "component_error_W": 0.0
+    }
+  ],
+  "passed": true
+}

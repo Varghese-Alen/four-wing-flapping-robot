@@ -1,0 +1,38 @@
+{
+  "scope": "Prescribed mechanical screening ONLY",
+  "fixed_multiplier": 1.625,
+  "optimized_menu": [
+    1.375,
+    1.625,
+    1.9000000000000001
+  ],
+  "prescribed_menu": [
+    0.75,
+    1,
+    1.25
+  ],
+  "mission_nominal_Ppositive_W": {
+    "no spring": 2.144117426002209,
+    "best fixed": 1.8017642926779402,
+    "selectable optimized": 1.7981761969290264,
+    "selectable prescribed": 1.8126124427374009
+  },
+  "nominal_modular_advantage_W": 0.003588095748913833,
+  "nominal_modular_advantage_percent": 0.19914345974638506,
+  "prescribed_menu_advantage_W": -0.010848150059460604,
+  "conditional_modular_advantage_percent_quantiles": [
+    0.021765284887761607,
+    0.1096516126255252,
+    0.2279207137418792
+  ],
+  "conditional_negative_count": 9,
+  "conditional_count": 1000,
+  "grid_cases": 1694,
+  "quadrature_runs": 45,
+  "all_equation_checks_pass": true,
+  "all_quadrature_checks_pass": true,
+  "prescribed_periodicity_pass": true,
+  "harmonic_analytic_max_relative_error": 6.939420438537063e-14,
+  "cpu_s": 6.1958363620000005,
+  "config_sha256": "84d391466393753046289e8c4414192fbe77059bac1aff23e3b05adc46abf9f2"
+}

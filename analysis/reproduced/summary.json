@@ -1,0 +1,91 @@
+{
+  "scope": "Readout of retained computational screening; no new dynamics runs",
+  "mission_Hz": [
+    17,
+    18.5,
+    20
+  ],
+  "mission_positive_mechanical_W": {
+    "no spring": 2.144117426002209,
+    "best fixed": 1.80176429267794,
+    "selectable optimized": 1.7981761969290262,
+    "selectable prescribed": 1.8126124427374009
+  },
+  "optimised_menu_advantage_mW": 3.588095748913833,
+  "optimised_menu_advantage_percent": 0.19914345974638506,
+  "initial_menu_penalty_mW": 10.848150059460826,
+  "torque_20Hz_mNm": {
+    "no spring": 2.3245311158525084,
+    "best fixed": 1.677929889047573,
+    "selectable optimized": 1.571341065517272
+  },
+  "conditional": {
+    "cases": 1000,
+    "negative_advantages": 9
+  },
+  "stiffness_grid": {
+    "cases": 1694,
+    "shape": [
+      121,
+      14
+    ],
+    "negative_savings": 137,
+    "minimum_percent": -55.84222669192194,
+    "maximum_percent": 16.134738316975337,
+    "values_sha256_float64_le_C_order": "fc8ad6a1589ef62882287f25dbd3abb460a0699fc48eb29c5b2f57d8245a9831"
+  },
+  "storage_frequency": {
+    "dry_Hz": 23.77789448590115,
+    "added_inertia_hypothesis_Hz": 14.325359571012624,
+    "target_Hz": [
+      16,
+      18
+    ],
+    "selected_drive_Hz": 20
+  },
+  "retained_fixed_refinement": {
+    "step": 0.00625,
+    "fixed_multiplier": 1.63125,
+    "fixed_mission_W": 1.80176315541322,
+    "frozen_menu_advantage_W": 0.0035869584841936586,
+    "frozen_menu_advantage_percent": 0.19908046589902756
+  },
+  "histories_20Hz": {
+    "no spring": {
+      "samples": 4097,
+      "positive_W": 2.6739319796594128,
+      "negative_W": 0.472489532515996,
+      "signed_W": 2.2014424471434166,
+      "peak_mNm": 2.3245311158525084,
+      "power_identity_error_W": 0.0,
+      "component_max_error_W": 3.552713678800501e-15,
+      "angle_max_error_rad": 0.0,
+      "rate_max_error_rad_s": 0.0,
+      "acceleration_max_error_rad_s2": 3.637978807091713e-12
+    },
+    "best fixed": {
+      "samples": 4097,
+      "positive_W": 2.2483233848784945,
+      "negative_W": 0.04688093779850439,
+      "signed_W": 2.20144244707999,
+      "peak_mNm": 1.677929889047573,
+      "power_identity_error_W": 0.0,
+      "component_max_error_W": 3.552713678800501e-15,
+      "angle_max_error_rad": 0.0,
+      "rate_max_error_rad_s": 0.0,
+      "acceleration_max_error_rad_s2": 3.637978807091713e-12
+    },
+    "selectable optimized": {
+      "samples": 4097,
+      "positive_W": 2.242508798174341,
+      "negative_W": 0.04106635110508401,
+      "signed_W": 2.2014424470692564,
+      "peak_mNm": 1.571341065517272,
+      "power_identity_error_W": 4.440892098500626e-16,
+      "component_max_error_W": 2.6645352591003757e-15,
+      "angle_max_error_rad": 0.0,
+      "rate_max_error_rad_s": 0.0,
+      "acceleration_max_error_rad_s2": 3.637978807091713e-12
+    }
+  }
+}

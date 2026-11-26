@@ -1,0 +1,27 @@
+{
+  "study": "PS1",
+  "frequency_Hz": [12,13,14,15,16,17,18,19,20,21,22,23,24],
+  "mission_Hz": [17,18.5,20],
+  "mission_weights": [0.3333333333333333,0.3333333333333333,0.3333333333333333],
+  "stiffness_multiplier_step": 0.025,
+  "stiffness_multiplier_max": 3,
+  "prescribed_menu": [0.75,1,1.25],
+  "quadrature_steps": [1024,2048,4096],
+  "objective": "Equal weighted mission mean positive ideal mechanical power, two motors. Ties within 1e-12 W use lower multiplier.",
+  "optimized_three_menu": "Choose each of three nominal mission grid optima, deduplicate and pad with lowest unused grid multipliers if fewer than three. This reaches the mission per-condition grid oracle because there are only three mission points; no universal optimal-menu claim. On off-design points choose the lowest-work member using declared nominal conditions.",
+  "uncertainty": {
+    "samples": 1000,
+    "seed": 240319,
+    "interpretation": "Arbitrary conditional scenarios, not identified tolerances or confidence intervals. Policies remain frozen from nominal mission; no knowledge of hidden parameter realization.",
+    "normal_variates": "z0,z1,z2,z3 independent N(0,1)",
+    "air_factor": "exp(0.15*z0-0.15^2/2)",
+    "drag_factor": "exp(0.15*(0.7*z0+sqrt(1-0.7^2)*z1)-0.15^2/2); correlated log factors with air at0.7",
+    "rigid_inertia_factor": "exp(0.10*z2-0.10^2/2)",
+    "spring_calibration_factor": "exp(0.10*z3-0.10^2/2)",
+    "spring_damping_ratio": "Independent uniform[0,0.05], pair c=2*zeta*sqrt(k_pair*I_effective); wholly hypothetical dissipative burden applied to both fixed and modular springs, c=0 at zero stiffness. Not measured material damping."
+  },
+  "sensitivity": "OAT±20% rigid inertia, added inertia, drag coefficient, spring calibration. Damping ±20% around explicit scenario zeta=0.025, with its own reference rather than claiming ±20% about nominal zero. Friction/R/Kt remain unavailable and unranked.",
+  "detuning_model": "Separate harmonic root oscillator theta=A*sin(omega*t), A=24deg, Ieff=reference root+legacy added inertia, Gamma=2*DRAG, kpair=2*reference secant kbar*lambda; f/fn_reference0.6..1.4. Not the actual fourbar. Compare frozen best fixed and menu, without a fabricated target-saving shaded band.",
+  "electrical": "No motor identification, RMS current, electrical power or equal-lift efficiency computed. Mechanical port eta bounds are not electrical efficiencies.",
+  "mass": "Reference aircraft41.945526047931395g, four bars0.696014153g, retained matched bookkeeping; selectable hardware mass/process/cost unqualified, no fabricated credit."
+}

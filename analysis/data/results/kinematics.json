@@ -1,0 +1,21 @@
+{
+  "max_deg": 23.99999944929629,
+  "min_deg": -23.9999987591466,
+  "reversal_cycle_phases": [
+    0.806396484375,
+    0.302001953125
+  ],
+  "half_stroke_fraction": [
+    0.50439453125,
+    0.49560546875
+  ],
+  "prescribed_front_rear": "Opposite signed departures; not a computed clap/flow interaction",
+  "root_secant_k_pair_Nm_per_rad": 0.07156294118070314,
+  "storage_fn_dry_Hz": 23.77789448590115,
+  "storage_fn_added_air_hypothesis_Hz": 14.325359571012624,
+  "selected_drive_Hz": 20,
+  "target_fn_Hz": [
+    16,
+    18
+  ]
+}

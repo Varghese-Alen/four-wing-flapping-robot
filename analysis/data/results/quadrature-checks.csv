@@ -1,0 +1,16 @@
+frequency_Hz,method,Wpositive_J_pass,Wpositive_J_relative_change,peak_motor_Nm_pass,peak_motor_Nm_relative_change,rms_motor_Nm_pass,rms_motor_Nm_relative_change,balance_pass,spring_conservative_pass,passed
+17,no spring,True,7.376189364748562e-07,True,2.0441314486625985e-06,True,2.2566403660885845e-15,True,True,True
+17,best fixed,True,2.870958110584889e-09,True,1.060370695922415e-05,True,9.761704332858056e-10,True,True,True
+17,selectable optimized,True,3.057657890203127e-07,True,1.074269797992228e-05,True,8.242175241512024e-10,True,True,True
+17,selectable prescribed,True,1.5583789144882756e-07,True,2.4463425935406336e-06,True,7.401904101384018e-10,True,True,True
+17,grid oracle,True,3.057657890203127e-07,True,1.074269797992228e-05,True,8.242175241512024e-10,True,True,True
+18.5,no spring,True,7.376189365847329e-07,True,2.044131448645529e-06,True,2.0521137093205405e-15,True,True,True
+18.5,best fixed,True,2.1639573858895734e-07,True,8.907109697252722e-06,True,8.223556365658295e-10,True,True,True
+18.5,selectable optimized,True,2.1639573858895734e-07,True,8.907109697252722e-06,True,8.223556365658295e-10,True,True,True
+18.5,selectable prescribed,True,3.5636202870702914e-07,True,0.0,True,6.057979346957066e-10,True,True,True
+18.5,grid oracle,True,2.1639573858895734e-07,True,8.907109697252722e-06,True,8.223556365658295e-10,True,True,True
+20,no spring,True,7.37618936637202e-07,True,2.0441314484889436e-06,True,2.0066740486141575e-15,True,True,True
+20,best fixed,True,1.0880401408994263e-07,True,4.064268798559828e-06,True,6.87920656727672e-10,True,True,True
+20,selectable optimized,True,3.280001605141794e-07,True,9.28329531641299e-06,True,8.22738039599263e-10,True,True,True
+20,selectable prescribed,True,2.891374367453616e-07,True,8.5982834174074e-07,True,5.014700801718958e-10,True,True,True
+20,grid oracle,True,3.280001605141794e-07,True,9.28329531641299e-06,True,8.22738039599263e-10,True,True,True

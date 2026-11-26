@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" role="img">
+<title>Positive mechanical input power</title><desc>Equal-weight mean at 17, 18.5 and 20 Hz; both drives; computational screening</desc>
+<rect width="920" height="430" fill="#FAF7F0"/>
+<g font-family="sans-serif" fill="#30252B">
+<text x="36" y="38" font-size="23">Positive mechanical input power</text>
+<text x="36" y="65" font-size="13">Equal-weight mean at 17, 18.5 and 20 Hz; both drives; computational screening</text>
+<text x="36" y="143" font-size="17">No spring</text>
+<rect x="230" y="115" width="463.1294" height="43" fill="#526F83"/>
+<text x="703.1294" y="143" font-size="17">2.144117 W</text>
+<text x="36" y="220" font-size="17">Best fixed</text>
+<rect x="230" y="192" width="389.1811" height="43" fill="#AB7B46"/>
+<text x="629.1811" y="220" font-size="17">1.801764 W</text>
+<text x="36" y="297" font-size="17">Optimised menu</text>
+<rect x="230" y="269" width="388.4061" height="43" fill="#48252F"/>
+<text x="628.4061" y="297" font-size="17">1.798176 W</text>
+<text x="36" y="366" font-size="14">Optimised menu: 3.588 mW below the grid-best fixed spring.</text>
+<text x="36" y="394" font-size="14">Initial menu: 10.848 mW worse. These are not electrical savings.</text>
+</g></svg>

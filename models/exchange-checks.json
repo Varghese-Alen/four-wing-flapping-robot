@@ -1,0 +1,32 @@
+[
+  {
+    "file": "aircraft-reference-DC1.step",
+    "solids": 540,
+    "bounds_mm": [
+      -153.20243339385593,
+      -60.6305729874913,
+      -91.20000000002676,
+      153.20243339387306,
+      60.11344965522712,
+      61.4
+    ],
+    "volume_mm3": 24731.527446759712,
+    "data_section_unchanged": true,
+    "header_only_derivative": true
+  },
+  {
+    "file": "bench-assembly-FE1.step",
+    "solids": 1096,
+    "bounds_mm": [
+      -420.0,
+      -470.0,
+      -294.0,
+      530.0,
+      454.8,
+      367.0
+    ],
+    "volume_mm3": 26463110.18829107,
+    "data_section_unchanged": true,
+    "header_only_derivative": true
+  }
+]
